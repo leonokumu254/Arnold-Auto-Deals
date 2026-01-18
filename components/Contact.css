@@ -1,0 +1,41 @@
+/* --- Contact Section --- */
+.contact-section {
+  padding: 4rem 0;
+  background-color: #222;
+  color: var(--white);
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.2s;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+  color: var(--accent-yellow);
+}
+
+.contact-item i {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-item span {
+  font-size: 1rem;
+  font-weight: 500;
+}

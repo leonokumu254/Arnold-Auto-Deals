@@ -1,0 +1,5 @@
+{
+  "name": "Arnold Auto Deals",
+  "description": "A dynamic car inventory showcase powered by Google Sheets backend.",
+  "requestFramePermissions": []
+}

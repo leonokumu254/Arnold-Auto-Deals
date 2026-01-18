@@ -1,0 +1,81 @@
+/* --- Brand Showcase --- */
+.brand-showcase {
+  padding: 3rem 0;
+  background-color: var(--white);
+  border-bottom: 1px solid #eee;
+}
+
+.brand-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.brand-header h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.brand-item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: var(--radius);
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.brand-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.brand-logo {
+  max-width: 100%;
+  max-height: 60px;
+  object-fit: contain;
+  /* Start with grayscale for a clean look, color on hover */
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.brand-item:hover .brand-logo {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.brand-name {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #888;
+  opacity: 0; /* Hidden by default */
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.brand-item:hover .brand-name {
+  opacity: 1;
+  transform: translateY(0);
+  color: var(--primary-red);
+}
+
+@media (max-width: 768px) {
+  .brand-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}

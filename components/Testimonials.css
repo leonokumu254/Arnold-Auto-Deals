@@ -1,0 +1,25 @@
+/* --- Testimonials --- */
+.testimonials {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.testimonial-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: var(--radius);
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.stars {
+  color: var(--accent-yellow);
+  margin-bottom: 1rem;
+}
