@@ -13,14 +13,14 @@
 }
 
 .card-image-wrapper {
-  position: relative;
+  /* position: relative; */
   height: 200px;
 }
 
 .card-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .card-badge {

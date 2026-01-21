@@ -66,6 +66,9 @@
   transform: translateY(10px);
   transition: all 0.3s ease;
 }
+img{
+  max-width: 100px;
+}
 
 .brand-item:hover .brand-name {
   opacity: 1;

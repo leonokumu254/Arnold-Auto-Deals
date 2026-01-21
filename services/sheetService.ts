@@ -28,14 +28,14 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR_placeholde
 const MOCK_DATA = [
   {
     id: '1',
-    make: 'Toyota',
-    model: 'Corolla',
+    make: 'Mercedes',
+    model: 'B180 W247 ',
     year: '2019',
-    category: 'Locally Used',
-    price: 'KES 1,500,000',
-    main_image_url: 'https://picsum.photos/id/111/600/400',
-    interior_images_urls: 'https://picsum.photos/id/112/600/400, https://picsum.photos/id/113/600/400',
-    description: 'Reliable daily driver, excellent fuel economy, freshly serviced.',
+    category: 'Freshly Imported',
+    price: 'KES 3,000,000',
+    main_image_url: '/Images/Mercedes/1.jpeg',
+    interior_images_urls: '/Images/Mercedes/2.jpeg,/Images/Mercedes/3.jpeg,/Images/Mercedes/4.jpeg,/Images/Mercedes/5.jpeg,/Images/Mercedes/6.jpeg,/Images/Mercedes/7.jpeg,/Images/Mercedes/8.jpeg,/Images/Mercedes/9.jpeg,/Images/Mercedes/10.jpeg,/Images/Mercedes/11.jpeg', 
+    description: '2019 Mercedes Benz B180 W247 series, Pearl Exterior, SUNROOF, Front bucket seats,1300cc turbo petrol engine,Leather upholstery, Diamond front grill, 5 Spoke AMG style alloy rims,MBUX Infotainment System with Voice command,Digital instrument cluster,Active brake assist, Lane departure warning, Blindspot monitoring, Front heated seats, Drivers memory seat, Multifunctional steering wheel controls,Ambient lighting, Apple carplay and Android Auto,All round parking sensors, Reverse camera with 360° view, 72k mileage,Wireless Charging, Burmester surround sound system with rear subwoofer,',
     client_review: 'Arnold got me this Corolla in 2 days. Best price in town!'
   },
   {
