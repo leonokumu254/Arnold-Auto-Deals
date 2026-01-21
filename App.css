@@ -7,7 +7,7 @@
   --white: #ffffff;
   --shadow: 0 4px 6px rgba(0,0,0,0.1);
   --radius: 8px;
-  --max-width: 1200px;
+  --max-width:1440px;
 }
 
 * {
@@ -63,8 +63,11 @@ ul {
 
 .car-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  /* Increase min-width slightly or add a max-width to the cards themselves */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
+  padding-bottom: 2rem;
+justify-content: center;
 }
 
 /* Footer (App.tsx specific) */

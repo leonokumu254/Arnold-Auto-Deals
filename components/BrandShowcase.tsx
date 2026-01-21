@@ -17,7 +17,8 @@ export const BrandShowcase: React.FC = () => {
     { name: 'Volkswagen', logo: 'Images/volkswagen.svg' },
     { name: 'Audi', logo: 'Images/audi.svg' },
     { name: 'Land Rover', logo: 'Images/landrover.svg' },
-    { name: 'Lexus', logo: 'Images/lexus.svg' }
+    { name: 'Lexus', logo: 'Images/lexus.svg' },
+    { name: 'Volvo', logo: 'Images/volvo.svg' }
   ];
 
   return (

@@ -54,7 +54,7 @@ export const Hero: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 6000); // Change every 6 seconds
+    }, 5000); // Change every 6 seconds
     return () => clearInterval(interval);
   }, [current]);
 
